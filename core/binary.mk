@@ -238,8 +238,8 @@ ifneq ($(filter true always, $(LOCAL_FDO_SUPPORT)),)
     my_fdo_build := true
   endif
   # Disable ccache (or other compiler wrapper).
-  my_cc_wrapper :=
-  my_cxx_wrapper :=
+  #my_cc_wrapper :=
+  #my_cxx_wrapper :=
 endif
 
 ###########################################################
